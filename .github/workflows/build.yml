@@ -3,6 +3,7 @@ on:
   push:
     branches:    
       - 'master'
+      - fix-navigator-search-exclude-term
   pull_request:
 
 jobs:
