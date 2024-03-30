@@ -1,5 +1,6 @@
 ---
-title: Navigation
+search:
+  exclude: true
 ---
 
 - Home
