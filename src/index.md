@@ -8,7 +8,6 @@ search:
 
 ## Navigation
 
-{% assign navigation_full = site.src.navigation | split: '---' %}
-{% assign navigation_without_header = include_content[2] %}
+{% assign navigation_full = 'site.src.navigation.md' | split: '---' %}
+{% assign navigation_without_header = navigation_full[2] %}
 {{ navigation_without_header }}
-
